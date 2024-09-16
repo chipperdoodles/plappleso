@@ -18,5 +18,5 @@
 #
 ---
 include:
-   - board: nrf52840dk_nrf52840
-     shield: plappleso
+  - board: nrf52840dk_nrf52840
+    shield: plappleso
