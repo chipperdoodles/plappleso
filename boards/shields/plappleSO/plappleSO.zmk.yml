@@ -1,6 +1,6 @@
 file_format: "1"
-id: plappleSO
-name: Plapple Switch Only
+id: plappleso
+name: plappleso
 type: shield
 url: https://chippydootles.com
 requires: [nrf52840dk_nrf52840]
