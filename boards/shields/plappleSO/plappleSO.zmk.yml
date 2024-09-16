@@ -3,6 +3,6 @@ id: plappleSO
 name: Plapple Switch Only
 type: shield
 url: https://chippydootles.com
-requires: [makerdiary_nrf52840_m2]
+requires: [nrf52840dk_nrf52840]
 features:
   - keys
