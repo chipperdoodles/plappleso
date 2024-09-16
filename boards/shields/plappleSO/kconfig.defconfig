@@ -1,0 +1,6 @@
+if SHIELD_PLAPPLESO
+
+config ZMK_KEYBOARD_NAME
+    default "PlappleS0"
+
+endif
