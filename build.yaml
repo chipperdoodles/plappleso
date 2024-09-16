@@ -18,6 +18,6 @@
 #
 ---
 include:
-  -board: nrf52840dk
+  -board: makerdiary_nrf52840_m2
   -shield: plappleSO
   artifact-name: plappleshield
