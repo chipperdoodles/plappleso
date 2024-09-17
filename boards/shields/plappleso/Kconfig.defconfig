@@ -6,7 +6,4 @@ config ZMK_KEYBOARD_NAME
 config ZMK_PM_SOFT_OFF
     default n
 
-CONFIG_ZMK_USB=y
-CONFIG_ZMK_BLE=y
-
 endif
