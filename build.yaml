@@ -21,3 +21,5 @@ include:
   - board: nrf52840dk_nrf52840
     shield: plappleso
     snippet: zmk-usb-logging
+  - board: nrf52840dk_nrf52840
+    shield: settings_reset
