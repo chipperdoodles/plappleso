@@ -18,8 +18,8 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
+  - board: bmd340_keytrol
     shield: plappleso
     snippet: zmk-usb-logging
-  - board: nrf52840dk_nrf52840
+  - board: bmd340_keytrol
     shield: settings_reset
