@@ -1,6 +1,6 @@
 file_format: "1"
 id: bmd340_keytrol
-name: nRF52840 M.2 Module
+name: Bmd340 Keytrol
 type: board
 arch: arm
 outputs:
