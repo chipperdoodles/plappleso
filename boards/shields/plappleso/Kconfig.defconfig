@@ -3,7 +3,4 @@ if SHIELD_PLAPPLESO
 config ZMK_KEYBOARD_NAME
     default "plappleso"
 
-config ZMK_PM_SOFT_OFF
-    default n
-
 endif

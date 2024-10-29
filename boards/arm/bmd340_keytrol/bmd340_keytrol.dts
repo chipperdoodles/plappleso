@@ -26,7 +26,7 @@
 
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio1 8 GPIO_ACTIVE_HIGH>;
+        control-gpios = <&gpio1 8 GPIO_ACTIVE_LOW>;
         init-delay-ms = <50>;
     };
 
