@@ -3,6 +3,6 @@ id: plappleso
 name: plappleso
 type: shield
 url: https://chippydootles.com
-requires: [nrf52840dk_nrf52840]
+requires: [bmd340_keytrol]
 features:
   - keys

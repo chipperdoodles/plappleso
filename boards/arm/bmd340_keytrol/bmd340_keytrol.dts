@@ -20,23 +20,24 @@
     leds {
         compatible = "gpio-leds";
         switch_led: led_0 {
-            gpios = <&gpio1 9 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio1 9 GPIO_ACTIVE_LOW>;
         };
     };
 
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio1 8 GPIO_ACTIVE_LOW>;
+        control-gpios = <&gpio1 8 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <50>;
     };
-
-    &nice_view_spi {
-	compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi0_default>;
-	pinctrl-1 = <&spi0_sleep>;
-	pinctrl-names = "default", "sleep";
-
-    cs-gpios = <&gpio1 5 GPIO_ACTIVE_HIGH>;
+/*
+ *   &nice_view_spi {
+ *	compatible = "nordic,nrf-spim";
+ *  pinctrl-0 = <&spi0_default>;
+ *	pinctrl-1 = <&spi0_sleep>;
+ *	pinctrl-names = "default", "sleep";
+ *
+ *    cs-gpios = <&gpio1 5 GPIO_ACTIVE_HIGH>;
+*/
 };
 
 
