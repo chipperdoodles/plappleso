@@ -6,7 +6,7 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
-#include "keytrol_pins.dtsi"
+#include "keytro_bmd340_pins.dtsi"
 
 / {
     model = "keytrol_bmd340";
