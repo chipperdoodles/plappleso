@@ -1,5 +1,5 @@
-identifier: nrf52840_m2
-name: Makerdiary nRF52840 M.2 module
+identifier: keytrol_bmd340
+name: Chipperdoodles Keytrol BMD340
 type: mcu
 arch: arm
 toolchain:

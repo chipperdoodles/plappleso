@@ -1,10 +1,10 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_NRF52840_M2
+if BOARD_KEYTROL_BMD340
 
 config BOARD
-    default "nrf52480_m2"
+    default "keytrol_bmd340"
 
 if USB_DEVICE_STACK
 
@@ -16,4 +16,4 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
     default BT
 
-endif # BOARD_NRF52840_M2
+endif # BOARD_KEYTROL_BMD340

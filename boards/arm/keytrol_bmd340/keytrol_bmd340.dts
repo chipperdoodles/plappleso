@@ -8,34 +8,13 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 
 / {
-    model = "Makerdiary nRF52840 M.2 module";
-    compatible = "makerdiary,nrf52840_m2";
+    model = "keytrol_bmd340";
+    compatible = "chipperdoodles,keytrol_bmd340";
 
     chosen {
         zephyr,code-partition = &code_partition;
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
-        zmk,battery = &vbatt;
-    };
-
-    leds {
-        compatible = "gpio-leds";
-        red_led: led_0 {
-            gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
-        };
-        green_led: led_1 {
-            gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
-        };
-        blue_led: led_2 {
-            gpios = <&gpio0 31 GPIO_ACTIVE_HIGH>;
-        };
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-voltage-divider";
-        io-channels = <&adc 0>;
-        output-ohms = <1000000>;
-        full-ohms = <(1000000 + 1000000)>;
     };
 
 };
@@ -57,7 +36,7 @@
 };
 
 zephyr_udc0: &usbd {
-    compatible = "nordic,nrf-usbd";
+    /** compatible = "nordic,nrf-usbd"; **/
     status = "okay";
 };
 

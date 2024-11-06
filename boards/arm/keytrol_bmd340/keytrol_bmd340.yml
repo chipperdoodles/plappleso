@@ -1,0 +1,10 @@
+file_format: "1"
+id: keytrol_bmd340
+name: Keytrol BMD340
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://chippydootles.com
+exposes: [chipperdoodles_keytrol_bmd340]
