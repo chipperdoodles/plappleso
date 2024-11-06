@@ -42,4 +42,4 @@
     };
 };
 
-keytrol_spi: &spi0_default {};
+keytrol_spi: &spi0{};
