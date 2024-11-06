@@ -6,10 +6,11 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
+#include "keytrol_pins.dtsi"
 
 / {
     model = "keytrol_bmd340";
-    compatible = "chipperdoodles,keytrol_bmd340";
+    compatible = "chipperdoodles,keytrol";
 
     chosen {
         zephyr,code-partition = &code_partition;
@@ -33,6 +34,14 @@
 
 &gpio1 {
     status = "okay";
+};
+
+&spi0 {
+    status = "disabled";
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
 };
 
 zephyr_udc0: &usbd {

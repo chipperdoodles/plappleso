@@ -7,4 +7,4 @@ outputs:
   - usb
   - ble
 url: https://chippydootles.com
-exposes: [chipperdoodles_keytrol_bmd340]
+exposes: [keytrol]
