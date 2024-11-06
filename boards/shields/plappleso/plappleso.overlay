@@ -60,7 +60,7 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                RC(4,8) 
 		>;
 	};
 	
-    nice_view_spi: &keytrol_spi {
+    &nice_view_spi: &keytrol_spi {
     pinctrl-0 = <&keytrol_spi_default>;
  	pinctrl-1 = <&keytrol_spi_sleep>;
  	pinctrl-names = "default", "sleep";
