@@ -19,7 +19,7 @@
 ---
 include:
   - board: keytrol_bmd340
-    shield: nice_view plappleso
+    shield: plappleso nice_view
     snippet: zmk-usb-logging
   - board: bmd340_keytrol
     shield: settings_reset
