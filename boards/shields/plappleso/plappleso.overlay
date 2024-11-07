@@ -55,12 +55,6 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                RC(4,8) 
 	};
 
 };
-
-	EXT_POWER {
-        compatible = "zmk,ext-power-generic";
-        control-gpios = <&keytrol 25 GPIO_ACTIVE_HIGH>;
-        init-delay-ms = <50>;
-};
  
 
 
