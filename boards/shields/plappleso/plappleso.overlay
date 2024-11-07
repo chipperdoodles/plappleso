@@ -55,24 +55,13 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                RC(4,8) 
 	};
 
 };
-	&keytrol_spi {
-		status = "ok";
-	};
-	
-	&nice_view_spi {
-    pinctrl-0 = <&keytrol_spi_default>;
- 	pinctrl-1 = <&keytrol_spi_sleep>;
- 	pinctrl-names = "default", "sleep";
-	;
-	};
 
 	EXT_POWER {
         compatible = "zmk,ext-power-generic";
         control-gpios = <&keytrol 25 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <50>;
-    };
+};
  
-    cs-gpios = <&keytrol 24 GPIO_ACTIVE_HIGH>;
 
 
 
