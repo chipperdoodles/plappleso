@@ -15,11 +15,10 @@
 #     shield: corne_left
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
+#   - board: bmd340_keytrol
+#     shield: settings_reset
 #
 ---
 include:
   - board: keytrol_bmd340
-    shield: plappleso
-    snippet: zmk-usb-logging
-  - board: bmd340_keytrol
-    shield: settings_reset
+    shield: plappleso nice_view
